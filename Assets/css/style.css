@@ -19,7 +19,7 @@ body{
 }
 @font-face {
   font-family: "argonite";
-  src: url("./Assets/stone\ orgonite.woff");
+  src: url("../stone\ orgonite.woff");
 }
 section {
   padding: 5%;
@@ -119,15 +119,19 @@ nav svg{
 .classes{
     color:var(--secondary-color);
     text-align: center;
+    
     font-family: 'argonite',sans-serif;
 }
+
 .working1,.working2,.working3{
     position: relative;
+
 }
-.videos img{
-    width: 100%;
+.videos video{
+  
     border-radius: 1rem;
     margin-top: 1rem;
+    max-height: 85vh;
 }
 .videos h3{
     position: absolute;
@@ -155,12 +159,14 @@ nav svg{
     width: 100%;
     margin-top: 2rem;
 }
+
 @media screen and (min-width:768px) {
         body{
             padding:0%;
         }
         .videos{
             display:flex;
+            justify-content: center;
             gap:2rem
         }
         .about{
@@ -171,7 +177,7 @@ nav svg{
         .about img{
             width:50%;
         }
-        .about h2{
+        .about p{
             text-align: start;
         }
         .logo h1{
