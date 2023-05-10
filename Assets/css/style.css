@@ -159,7 +159,61 @@ nav svg{
     width: 100%;
     margin-top: 2rem;
 }
+.portfolio{
+    height: 100vh;
+    font-family: "argonite", sans-serif;
+    text-align: center;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .slide{
+   
+    border-radius: 1rem;
+    margin-top: 1rem;
+    max-height: 85vh;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
 
+  
+
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration:2.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 @media screen and (min-width:768px) {
         body{
             padding:0%;
